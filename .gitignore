@@ -1,0 +1,9 @@
+.vscode/
+*.pth
+*.pt
+*.ckpt
+__pycache__/
+*.pyc
+Code-Results/checkpoints/
+Code-Results/checkpoints2/
+
