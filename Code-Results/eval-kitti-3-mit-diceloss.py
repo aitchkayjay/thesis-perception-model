@@ -7,6 +7,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
+import matplotlib.pyplot as plt
 
 from kitti_dataset import KittiDataset
 from unet import UNet
@@ -106,3 +107,4 @@ with torch.no_grad():
         plt.close()
 
         print(f"✅ Gespeichert: {save_path}")
+        
